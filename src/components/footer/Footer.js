@@ -23,7 +23,7 @@ const Footer = () => {
             </div>
 
             <div className={"footer__copyright"}>
-                <small>&copy; EGATOR Tutorials. All rights reserved.</small>
+                <small>&copy; Kanhainya Agrawal. Built with passion and precision.</small>
             </div>
         </footer>
     )
