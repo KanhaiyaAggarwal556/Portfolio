@@ -7,53 +7,7 @@ const Portfolio = () => {
       <h2>Projects</h2>
 
       <div className={"container portfolio__container"}>
-        <article className={"portfolio__item"}>
-          <div className={"project_details"}>
-            <div className={"project_title"}>
-              <h2>ArkaEve</h2>
-              <h4 className={"subtitle"}>Crafting your Dream Event</h4>
-            </div>
-            <div className={"project__details"}>
-              <div className={"project__summary"}>
-                <p>
-                  Arka Eve is an event planning platform that helps users
-                  explore 200+ venues and 500+ restaurants across India. It
-                  allows customers to create personalized events, connect with
-                  professional event planners, and manage everything through a
-                  dedicated admin panel.
-                </p>
-              </div>
-
-              <div class="tech-stack">
-                <span class="tech-btn">React</span>
-                <span class="tech-btn">Redux</span>
-                <span class="tech-btn">Express.js</span>
-                <span class="tech-btn">Node.js</span>
-                <span class="tech-btn">MongoDB</span>
-                <span class="tech-btn">TailwindCSS</span>
-              </div>
-            </div>
-          </div>
-
-          <div className={"portfolio__item-cta"}>
-            <a
-              href={"https://github.com"}
-              className={"btn"}
-              target={"_blank"}
-              rel="noreferrer"
-            >
-              Github
-            </a>
-            <a
-              href={"https://dribbble.com"}
-              className={"btn btn-primary"}
-              target={"_blank"}
-              rel="noreferrer"
-            >
-              View
-            </a>
-          </div>
-        </article>
+        
         <article className={"portfolio__item"}>
           <div className={"project_details"}>
             <div className={"project_title"}>
@@ -95,7 +49,54 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href={"https://twooter-social.netlify.app/"}
+              href={"https://twootersocial.netlify.app/"}
+              className={"btn btn-primary"}
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              View
+            </a>
+          </div>
+        </article>
+        <article className={"portfolio__item"}>
+          <div className={"project_details"}>
+            <div className={"project_title"}>
+              <h2>ArkaEve</h2>
+              <h4 className={"subtitle"}>Crafting your Dream Event</h4>
+            </div>
+            <div className={"project__details"}>
+              <div className={"project__summary"}>
+                <p>
+                  Arka Eve is an event planning platform that helps users
+                  explore 200+ venues and 500+ restaurants across India. It
+                  allows customers to create personalized events, connect with
+                  professional event planners, and manage everything through a
+                  dedicated admin panel.
+                </p>
+              </div>
+
+              <div class="tech-stack">
+                <span class="tech-btn">React</span>
+                <span class="tech-btn">Redux</span>
+                <span class="tech-btn">Express.js</span>
+                <span class="tech-btn">Node.js</span>
+                <span class="tech-btn">MongoDB</span>
+                <span class="tech-btn">TailwindCSS</span>
+              </div>
+            </div>
+          </div>
+
+          <div className={"portfolio__item-cta"}>
+            <a
+              href={"https://github.com"}
+              className={"btn"}
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href={"https://go.screenpal.com/watch/cZQfqZVRvRJ"}
               className={"btn btn-primary"}
               target={"_blank"}
               rel="noreferrer"
