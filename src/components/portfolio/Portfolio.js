@@ -11,7 +11,7 @@ const Portfolio = () => {
         <article className={"portfolio__item"}>
           <div className={"project_details"}>
             <div className={"project_title"}>
-              <h2>Twooter</h2>
+              <h2>Vimarsh</h2>
               <h4 className={"subtitle"}>
                 Your Voice. Your Vibe. Your Platform
               </h4>
@@ -41,7 +41,7 @@ const Portfolio = () => {
 
           <div className={"portfolio__item-cta"}>
             <a
-              href={"https://github.com/KanhaiyaAggarwal556/Twooter"}
+              href={"https://github.com/KanhaiyaAggarwal556/Vimarsh"}
               className={"btn"}
               target={"_blank"}
               rel="noreferrer"
@@ -49,7 +49,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href={"https://twootersocial.netlify.app/"}
+              href={"https://vimarsh-social.netlify.app/"}
               className={"btn btn-primary"}
               target={"_blank"}
               rel="noreferrer"

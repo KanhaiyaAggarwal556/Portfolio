@@ -18,7 +18,7 @@ const Footer = () => {
 
             <div className={"footer__socials"}>
                 <a href={"https://www.facebook.com/thekanhaiyaagrawal/"} target={"_blank"} rel = "noreferrer"><FaFacebook /></a>
-                <a href={"https://instagram.com"} target={"_blank"} rel = "noreferrer"><FiInstagram /></a>
+                <a href={"https://instagram.com/kanhaiya_agrawal_007/"} target={"_blank"} rel = "noreferrer"><FiInstagram /></a>
                 <a href={"https://x.com/kanhaiyaaggar12"} target={"_blank"} rel = "noreferrer"><BsTwitterX  /></a>
             </div>
 
